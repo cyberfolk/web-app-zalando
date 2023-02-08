@@ -5,9 +5,7 @@
     box-sizing: border-box;
 }
 
-body {
-    font-family: 'Fredoka', sans-serif;
-}
+
 
 :root {
     --bl-app-header-bg: #ff6c04;
@@ -17,22 +15,37 @@ body {
     --bl-app-main-height: 800px;
     --bl-app-footer-height: 200px;
     --bl-card-bg: #ececec;
-    --bl-card-height: 300px;
+    /* --bl-card-height: 300px; */
     --bl-border: 1px dashed black;
     --bl-col-4-bg: yellow;
     --bl-content-bg: green;
     --bl-content-height: 100px;
+    --bl-card-height: 300px;
+    --bl-font: "Helvetica Now", Helvetica, Arial, sans-serif;
+    --bl-logo-ratio: 678 / 151;
+}
 
+body {
+    font-family: var(--bl-font);
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+li {
+    list-style-type: none;
 }
 
 /* #endregion Common Rules */
 
 /* #region Debug */
-.debug > #app-header {
+/* .debug > #app-header {
     height: var(--bl-app-header-height);
     background-color: var(--bl-app-header-bg);
     border: var(--bl-border);
-}
+} */
 
 .debug > #app-main {
     height: var(--bl-app-main-height);
@@ -84,17 +97,27 @@ body {
 }
 
 .logo {
-    background-image: url("../img/logo.svg");
-    height: var(--logo-height);
-    /* aspect-ratio: 13.62 / 3.84; */
+    background-image: url("../img/boolean-logo.png");
+    height: 2rem;
+    aspect-ratio: var(--bl-logo-ratio);
     background-size: contain;
     background-repeat: no-repeat;
 }
 
 /* #region Bootstrap */
+
+.gap-1 {
+    gap: 1rem;
+}
+
 .px-3 {
     padding-right: 3rem;
     padding-left: 3rem;
+}
+
+.py-1 {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
 }
 
 .py-2 {
@@ -209,6 +232,19 @@ body {
 /* #endregion Utilities */
 
 /* #region app-header */
+#app-header {
+    background-color: var(--bl-app-header-bg);
+}
+
+#app-header > .container {
+    justify-content: space-between;
+    vertical-align: middle;
+    align-items: center;
+}
+
+.container .user_menu {
+    color: white;
+}
 
 /* #endregion app-header */
 
