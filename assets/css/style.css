@@ -209,6 +209,10 @@ li {
     margin-top: 2rem;
 }
 
+.mt-3 {
+    margin-top: 3rem;
+}
+
 .mb-05 {
     margin-bottom: 0.5rem;
 }
@@ -320,6 +324,24 @@ li {
     top: 5px;
 }
 
+.price,
+.brand {
+    font-size: 0.8rem;
+}
+
+.dress {
+    font-weight: bold;
+}
+
+.price .now {
+    color: red;
+    margin-right: 0.2rem;
+}
+
+.price .old {
+    text-decoration: line-through;
+}
+
 #p1:hover {
     content: url("../img/1b.webp");
 }
@@ -348,8 +370,6 @@ li {
     color: red;
 }
 
-
-
 /* #endregion app-main */
 
 /* #region app-footer */
@@ -362,7 +382,6 @@ li {
     vertical-align: middle;
     align-items: center;
     color: white;
-
 }
 
 .legal {
