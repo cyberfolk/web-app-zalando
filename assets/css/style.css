@@ -43,15 +43,15 @@ li {
 /* #endregion Common Rules */
 
 /* #region Debug */
-/* .debug > #app-header {
+.debug > #app-header {
     height: var(--bl-app-header-height);
     background-color: var(--bl-app-header-bg);
     border: var(--bl-border);
-} */
+}
 
 .debug > #app-main {
     height: var(--bl-app-main-height);
-    /* background-color: var(--bl-app-main-bg); */
+    background-color: var(--bl-app-main-bg);
     border: var(--bl-border);
 }
 
@@ -62,19 +62,19 @@ li {
 }
 
 .debug .col-4 {
-    /* height: var(--bl-col-4-height); */
+    height: var(--bl-col-4-height);
     background-color: var(--bl-col-4-bg);
     border: var(--bl-border);
 }
 
 .debug .content {
-    /* height: var(--bl-content-height); */
+    height: var(--bl-content-height);
     background-color: var(--bl-content-bg);
     border: var(--bl-border);
 }
 
 .debug .card {
-    /* height: var(--bl-card-height); */
+    height: var(--bl-card-height);
     background-color: var(--bl-card-bg);
     border: var(--bl-border);
 }
@@ -107,6 +107,10 @@ li {
 }
 
 /* #region Bootstrap */
+
+.wrap {
+    flex-wrap: wrap;
+}
 
 .gap-1 {
     gap: 1rem;
@@ -162,6 +166,10 @@ li {
 
 .pb-2 {
     padding-bottom: 2rem;
+}
+
+.pb-3 {
+    padding-bottom: 3rem;
 }
 
 .pb-5 {
@@ -267,6 +275,7 @@ li {
 /* #endregion app-header */
 
 /* #region app-main */
+
 .card > .pics {
     position: relative;
 }
@@ -318,6 +327,18 @@ li {
 
 #p3:hover {
     content: url("../img/3b.webp");
+}
+
+#p4:hover {
+    content: url("../img/4b.webp");
+}
+
+#p5:hover {
+    content: url("../img/5b.webp");
+}
+
+#p6:hover {
+    content: url("../img/6b.webp");
 }
 
 .heart:hover {
