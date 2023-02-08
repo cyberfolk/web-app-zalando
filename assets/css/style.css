@@ -347,7 +347,7 @@ li {
     text-decoration: line-through;
 }
 
-#p1:hover {
+/* #p1:hover {
     content: url("../img/1b.webp");
 }
 
@@ -369,6 +369,24 @@ li {
 
 #p6:hover {
     content: url("../img/6b.webp");
+} */
+
+.img_b {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.pics:hover > .img_a {
+    visibility: hidden;
+}
+
+.pics:hover > .img_b {
+    visibility: visible;
+}
+
+.pics > .img_b {
+    visibility: hidden;
 }
 
 .heart:hover {
