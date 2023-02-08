@@ -68,13 +68,13 @@ li {
 }
 
 .debug .content {
-    height: var(--bl-content-height);
+    /* height: var(--bl-content-height); */
     background-color: var(--bl-content-bg);
     border: var(--bl-border);
 }
 
 .debug .card {
-    height: var(--bl-card-height);
+    /* height: var(--bl-card-height); */
     background-color: var(--bl-card-bg);
     border: var(--bl-border);
 }
@@ -115,6 +115,11 @@ li {
 .px-3 {
     padding-right: 3rem;
     padding-left: 3rem;
+}
+
+.px-05 {
+    padding-right: 0.5rem;
+    padding-left: 0.5rem;
 }
 
 .py-1 {
@@ -255,9 +260,30 @@ li {
     color: white;
 }
 
+s
 /* #endregion app-header */
 
 /* #region app-main */
+.col-4 > .card {
+    position: relative;
+}
+
+.card > img {
+    width: 100%;
+}
+
+.heart,
+.discount {
+    position: absolute;
+}
+
+.heart {
+    background-color: white;
+    font-size: 2rem;
+    padding: 0.25rem 0.75rem;
+    right: 0;
+    top: 5px;
+}
 
 /* #endregion app-main */
 
