@@ -350,5 +350,20 @@ li {
 /* #endregion app-main */
 
 /* #region app-footer */
+#app-footer {
+    background-color: var(--bl-app-footer-bg);
+}
+
+#app-footer > .container {
+    justify-content: space-between;
+    vertical-align: middle;
+    align-items: center;
+    color: white;
+
+}
+
+.container .user_menu {
+    color: white;
+}
 
 /* #endregion app-footer */
