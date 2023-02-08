@@ -269,9 +269,10 @@ li {
 /* #region app-main */
 .card > .pics {
     position: relative;
-    background-size: contain;
-    background-position: center;
-    aspect-ratio: 640/924;
+}
+
+.pics > img {
+    width: 100%;
 }
 
 .heart,
@@ -307,28 +308,16 @@ li {
     top: 5px;
 }
 
-#p1 {
-    background-image: url("../img/1.webp");
-}
-
-#p2 {
-    background-image: url("../img/2.webp");
-}
-
-#p3 {
-    background-image: url("../img/3.webp");
-}
-
 #p1:hover {
-    background-image: url("../img/1b.webp");
+    content: url("../img/1b.webp");
 }
 
 #p2:hover {
-    background-image: url("../img/2b.webp");
+    content: url("../img/2b.webp");
 }
 
 #p3:hover {
-    background-image: url("../img/3b.webp");
+    content: url("../img/3b.webp");
 }
 
 .heart:hover {
