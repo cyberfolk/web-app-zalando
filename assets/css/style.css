@@ -62,7 +62,7 @@ li {
 }
 
 .debug .col-4 {
-    height: var(--bl-col-4-height);
+    /* height: var(--bl-col-4-height); */
     background-color: var(--bl-col-4-bg);
     border: var(--bl-border);
 }
@@ -110,6 +110,10 @@ li {
 
 .gap-1 {
     gap: 1rem;
+}
+
+.gap-05 {
+    gap: 0.5rem;
 }
 
 .px-3 {
@@ -263,17 +267,36 @@ li {
 /* #endregion app-header */
 
 /* #region app-main */
-.col-4 > .card {
+.card > .pics {
     position: relative;
-}
-
-.card > img {
-    width: 100%;
+    background-size: contain;
+    background-position: center;
+    aspect-ratio: 640/924;
 }
 
 .heart,
-.discount {
+.tag {
     position: absolute;
+}
+
+.tag {
+    left: 0;
+    bottom: 25px;
+    color: white;
+}
+
+.discount,
+.eco {
+    font-size: 1rem;
+    padding: 0.25rem 0.5rem;
+}
+
+.eco {
+    background-color: green;
+}
+
+.discount {
+    background-color: red;
 }
 
 .heart {
@@ -283,6 +306,36 @@ li {
     right: 0;
     top: 5px;
 }
+
+#p1 {
+    background-image: url("../img/1.webp");
+}
+
+#p2 {
+    background-image: url("../img/2.webp");
+}
+
+#p3 {
+    background-image: url("../img/3.webp");
+}
+
+#p1:hover {
+    background-image: url("../img/1b.webp");
+}
+
+#p2:hover {
+    background-image: url("../img/2b.webp");
+}
+
+#p3:hover {
+    background-image: url("../img/3b.webp");
+}
+
+.heart:hover {
+    color: red;
+}
+
+
 
 /* #endregion app-main */
 
