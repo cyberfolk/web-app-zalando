@@ -266,7 +266,7 @@ li {
     background-color: var(--bl-app-header-bg);
     box-shadow: 0 0 20px var(--bl-shadow);
     position: fixed;
-    z-index: 1;
+    z-index: 2;
 }
 
 #app-header > .container {
@@ -282,6 +282,11 @@ li {
 /* #endregion app-header */
 
 /* #region app-main */
+
+#app-main {
+    position: relative;
+    top: 4rem;
+}
 
 .card > .pics {
     position: relative;
