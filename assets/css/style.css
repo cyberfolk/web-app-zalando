@@ -362,8 +362,14 @@ li {
 
 }
 
-.container .user_menu {
-    color: white;
+.legal {
+    font-size: 0.8rem;
 }
+
+.social_list {
+    justify-content: space-between;
+}
+
+
 
 /* #endregion app-footer */
