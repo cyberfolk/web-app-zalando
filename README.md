@@ -1,0 +1,11 @@
+# Zalando - Replica web-page
+
+**Initial commit**: 08/02/23
+
+**Tecnologie:** html, css, :hover.
+
+👗 Ecco qui la mia replica di Zalando, uno dei primi progetti realizzati con Boolean.
+In questo esercizio ho la proprietà :hover per gestire il cambio dell'immagine al passaggio del mouse.
+
+🔗 Repository:
+https://github.com/cyberfolk/web-app-zalando.git
