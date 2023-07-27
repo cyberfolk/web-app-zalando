@@ -5,7 +5,7 @@
 **Tecnologie:** HTML, CSS e :hover.
 
 👗 Ecco qui la mia replica di Zalando, uno dei primi progetti realizzati con Boolean.
-In questo esercizio ho la proprietà :hover per gestire il cambio dell'immagine al passaggio del mouse.
+In questo esercizio ho usato la proprietà :hover per gestire il cambio dell'immagine al passaggio del mouse.
 
 🔗 Repository:
 https://github.com/cyberfolk/web-app-zalando.git
