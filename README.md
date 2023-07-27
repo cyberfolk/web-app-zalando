@@ -10,4 +10,4 @@ In questo esercizio ho usato la proprietà :hover per gestire il cambio dell'imm
 🔗 Repository:
 https://github.com/cyberfolk/web-app-zalando.git
 
-<img src="./public/screen/screencapture.png" />
+<img src="./assets/img/screencapture.png" />
